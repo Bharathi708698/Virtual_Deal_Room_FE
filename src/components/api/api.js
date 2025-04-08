@@ -1,4 +1,4 @@
-export const API_URL = "https://virtual-deal-room-be.onrender.com";
+export const API_URL = "<Enter your Backend URL>";
 
 
 export const RegisterAPI = `${API_URL}/api/v1/register`;
