@@ -1,0 +1,152 @@
+/* .buyer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-left .logo {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .header-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-center button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  .header-center button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  
+  .header-center button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .notification-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .buyer-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-center {
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px 0;
+    }
+  
+    .header-right {
+      align-self: flex-end;
+    }
+  }
+
+   */
+
+
+   .buyer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-left .logo {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .header-center button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: none;
+    color: black;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .header-center button.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .header-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .notification-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .user-name {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  /* Profile card dropdown */
+  .profile-card {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    border-radius: 8px;
+    z-index: 100;
+    width: 220px;
+  }
+  
+  .profile-card p {
+    margin: 6px 0;
+  }
+  
+  .profile-card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    width: 100%;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
